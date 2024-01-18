@@ -1,0 +1,38 @@
+.contentSection{
+    height: 50px;
+    align-items: center;
+    width: 1500px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    display: inline-flex;
+}
+
+.body_section{
+    height: 100%;
+    align-items: center;
+    width: 1500px;
+    margin: 10px 250px;
+}
+
+.section{
+    padding-right: 200px;
+    text-decoration: none;
+}
+
+
+.personale_info{
+    background-color:  lightgrey;
+    border-radius: 13px;
+    height: 100px;
+    padding: 30px;
+    margin: 20px
+}
+
+.basic_setup{
+    display: inline-flex;
+    height: 169px;
+    background-color: white;
+}

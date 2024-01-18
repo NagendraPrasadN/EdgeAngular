@@ -1,0 +1,125 @@
+.summary-list {
+    font-family: 'Source Sans Pro' !important;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      margin: auto;
+      margin-right: 7px;
+      height: 80px;
+      align-items: center;
+      padding: 20px;
+    }
+
+  
+  .summary-number{
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 26px;
+    float: right;
+    color: lightseagreen;
+  }
+  
+  .summary-text{
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 18px;
+    float: left;
+    color: black;
+  }
+  
+  .overallSumcontainer{
+    margin-left: 210px;
+    background-color: white;
+}
+
+.header{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 50px;
+    }
+    
+    .header__logo{
+     width: 100px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 18px;
+     object-fit: contain;
+    }
+    
+    .header__search{
+    display: flex;
+    margin: auto;
+    }
+    
+    .header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    
+    }
+    .header__searchIcon{
+        padding: 5px;
+        height: 22px !important;
+        background-color: #cd9042;
+    }
+    
+    
+    .header__nav{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .header__link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .header__option{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .header__optionbasket{
+       display: flex;
+       align-items: center;
+    }
+    
+    .header__optionlineone{
+        font-size: 10px;
+    }
+    
+    .header__optionlinetwo{
+        font-size: 13px;
+        font-weight: 800;
+    }
+    
+    .header__optionlinecount{
+        font-size: 13px;
+        font-weight: 800;
+        margin-left: 5px;
+    }
+  
+
+    .buttonParam{
+        background-color: blue;
+        color: white;
+        padding: 5px 15px;
+        margin-left: 600px;
+    
+    }
+    .boxhead{
+      display: inline-flex;
+      width: 800px;
+      font-size: 18px;
+      font-weight: 400;
+    }

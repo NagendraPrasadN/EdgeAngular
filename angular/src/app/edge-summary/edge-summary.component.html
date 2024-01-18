@@ -1,0 +1,28 @@
+<div class="contentSection" style="margin: 10px 250px; display: inline-flex;">
+     <div class="" >
+      
+        <div class="boxhead" >
+           Vendor Contracts -> Fixed Price Contracts - English 
+            <span  style="color:darkseagreen;padding-left: 200px;"> Assigned</span>
+          </div>
+    </div>
+
+    <div class="header__nav" >
+      
+        <div class="header__link">
+            <div class="">
+                <span><button class="buttonParam">Save</button></span>
+            </div>
+        </div>
+</div>
+</div>
+
+    <div class="overallSumcontainer" style="display: flex;"  >
+        <div class="summary-list" *ngFor="let countName of countNameList; let i = index" [ngClass]="{'assignnewone':countNameList.length>1,'assignoldone':countNameList.length == 1}" >
+          <div class="mainsummary"
+          (click)="onClicksummaryboxselected($event,countName, i)"  tooltip="{{countName?.name}}">
+          <div class="summary-number">{{countName.value}}</div>  
+          <div class="summary-text">{{countName.name}}</div>
+          </div>
+        </div>
+      </div>
