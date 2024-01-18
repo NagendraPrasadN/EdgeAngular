@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
-import { ApiService } from './api.service';
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
 
@@ -18,7 +16,7 @@ import { TopbarComponent } from './topbar/topbar.component';
     CommonModule,
     HttpClientModule
   ],
-  providers: [ApiService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
