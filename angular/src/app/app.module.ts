@@ -5,18 +5,12 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ApiService } from './api.service';
 import { AppComponent } from './app.component';
-import { StocksComponent } from './stocks/stocks.component';
-import { HistoryComponent } from './history/history.component';
-import { PurchasedComponent } from './purchased/purchased.component';
 import { TopbarComponent } from './topbar/topbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    StocksComponent,
-    HistoryComponent,
-    PurchasedComponent,
     TopbarComponent,
   ],
   imports: [
